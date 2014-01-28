@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <config>
     <tabs>
-        <meanbee_gmailactionsconfig translate="label" module="gmailactions">
+        <meanbee_gmailactionsconfig translate="label" module="meanbee_gmailactions">
             <label>Gmail Actions</label>
             <sort_order>99999</sort_order>
         </meanbee_gmailactionsconfig>
     </tabs>
     <sections>
-        <meanbee_gmailactions_options translate="label" module="gmailactions">
+        <meanbee_gmailactions_options translate="label" module="meanbee_gmailactions">
             <label>Gmail Actions Configuration</label>
             <tab>meanbee_gmailactionsconfig</tab>
             <frontend_type>text</frontend_type>

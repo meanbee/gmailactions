@@ -7,22 +7,22 @@
     </modules>
     <global>
         <blocks>
-            <gmailactions>
+            <meanbee_gmailactions>
                 <class>Meanbee_Gmailactions_Block</class>
-            </gmailactions>
+            </meanbee_gmailactions>
         </blocks>
         <helpers>
-            <gmailactions>
+            <meanbee_gmailactions>
                 <class>Meanbee_Gmailactions_Helper</class>
-            </gmailactions>
+            </meanbee_gmailactions>
         </helpers>
     </global>
     <frontend>
         <layout>
             <updates>
-                <gmailactions>
+                <meanbee_gmailactions>
                     <file>meanbee/gmailactions.xml</file>
-                </gmailactions>
+                </meanbee_gmailactions>
             </updates>
         </layout>
     </frontend>
@@ -35,9 +35,9 @@
                             <children>
                                 <config>
                                     <children>
-                                        <gmailactions_options>
+                                        <meanbee_gmailactions_options>
                                             <title>Gmail Actions Configuration</title>
-                                        </gmailactions_options>
+                                        </meanbee_gmailactions_options>
                                     </children>
                                 </config>
                             </children>
@@ -48,7 +48,7 @@
         </acl>
     </adminhtml>
     <default>
-        <gmailactions_options>
+        <meanbee_gmailactions_options>
             <shipment_email>
                 <action_name>View Shipment</action_name>
                 <description>Open shipment in browser</description>
@@ -61,6 +61,6 @@
                 <action_name>View Credit Memo</action_name>
                 <description>Open credit memo in browser</description>
             </creditmemo_email>
-        </gmailactions_options>
+        </meanbee_gmailactions_options>
     </default>
 </config>

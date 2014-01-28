@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <config>
     <tabs>
-        <gmailactionsconfig translate="label" module="gmailactions">
+        <meanbee_gmailactionsconfig translate="label" module="gmailactions">
             <label>Gmail Actions</label>
             <sort_order>99999</sort_order>
-        </gmailactionsconfig>
+        </meanbee_gmailactionsconfig>
     </tabs>
     <sections>
-        <gmailactions_options translate="label" module="gmailactions">
+        <meanbee_gmailactions_options translate="label" module="gmailactions">
             <label>Gmail Actions Configuration</label>
-            <tab>gmailactionsconfig</tab>
+            <tab>meanbee_gmailactionsconfig</tab>
             <frontend_type>text</frontend_type>
             <sort_order>1000</sort_order>
             <show_in_default>1</show_in_default>
@@ -95,6 +95,6 @@
                     </fields>
                 </creditmemo_email>
             </groups>
-        </gmailactions_options>
+        </meanbee_gmailactions_options>
     </sections>
 </config>

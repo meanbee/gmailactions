@@ -5,11 +5,11 @@
 {
   "@context": "http://schema.org",
   "@type": "EmailMessage",
-  "description": "<?php echo Mage::getStoreConfig("gmailactions_options/creditmemo_email/description"); ?>",
+  "description": "<?php echo Mage::getStoreConfig("meanbee_gmailactions_options/creditmemo_email/description"); ?>",
   "action": {
     "@type": "ViewAction",
     "url": "<?php echo $this->getViewCreditmemoUrl($_order); ?>",
-    "name": "<?php echo Mage::getStoreConfig("gmailactions_options/creditmemo_email/action_name"); ?>"
+    "name": "<?php echo Mage::getStoreConfig("meanbee_gmailactions_options/creditmemo_email/action_name"); ?>"
   }
 }
 </script>

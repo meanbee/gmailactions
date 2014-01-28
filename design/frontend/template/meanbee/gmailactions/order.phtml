@@ -4,11 +4,11 @@
 {
   "@context": "http://schema.org",
   "@type": "EmailMessage",
-  "description": "<?php echo Mage::getStoreConfig("gmailactions_options/order_email/description"); ?>",
+  "description": "<?php echo Mage::getStoreConfig("meanbee_gmailactions_options/order_email/description"); ?>",
   "action": {
     "@type": "ViewAction",
     "url": "<?php echo $this->getViewOrderUrl($_order); ?>",
-    "name": "<?php echo Mage::getStoreConfig("gmailactions_options/order_email/action_name"); ?>"
+    "name": "<?php echo Mage::getStoreConfig("meanbee_gmailactions_options/order_email/action_name"); ?>"
   }
 }
 </script>

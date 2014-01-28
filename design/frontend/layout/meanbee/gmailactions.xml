@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <layout>
     <sales_email_order_items>
-        <block type="gmailactions/gmailactions" name="additional.product.info" template="meanbee/gmailactions/order.phtml" />
+        <block type="meanbee_gmailactions/gmailactions" name="additional.product.info" template="meanbee/gmailactions/order.phtml" />
     </sales_email_order_items>
     <sales_email_order_creditmemo_items>
-        <block type="gmailactions/gmailactions" name="additional.product.info" template="meanbee/gmailactions/creditmemo.phtml" />
+        <block type="meanbee_gmailactions/gmailactions" name="additional.product.info" template="meanbee/gmailactions/creditmemo.phtml" />
     </sales_email_order_creditmemo_items>
     <sales_email_order_shipment_items>
-        <block type="gmailactions/gmailactions" name="additional.product.info" template="meanbee/gmailactions/shipment.phtml" />
+        <block type="meanbee_gmailactions/gmailactions" name="additional.product.info" template="meanbee/gmailactions/shipment.phtml" />
     </sales_email_order_shipment_items>
 </layout>

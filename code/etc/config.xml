@@ -7,9 +7,9 @@
     </modules>
     <global>
         <blocks>
-            <meanbee_gmailactions>
+            <gmailactions>
                 <class>Meanbee_Gmailactions_Block</class>
-            </meanbee_gmailactions>
+            </gmailactions>
         </blocks>
         <helpers>
             <gmailactions>
@@ -20,9 +20,9 @@
     <frontend>
         <layout>
             <updates>
-                <meanbee_gmailactions>
-                    <file>gmailactions.xml</file>
-                </meanbee_gmailactions>
+                <gmailactions>
+                    <file>meanbee/gmailactions.xml</file>
+                </gmailactions>
             </updates>
         </layout>
     </frontend>
@@ -32,7 +32,7 @@
                 <admin>
                     <children>
                         <system>
-                            <chrildren>
+                            <children>
                                 <config>
                                     <children>
                                         <gmailactions_options>
@@ -40,11 +40,27 @@
                                         </gmailactions_options>
                                     </children>
                                 </config>
-                            </chrildren>
+                            </children>
                         </system>
                     </children>
                 </admin>
             </resources>
         </acl>
     </adminhtml>
+    <default>
+        <gmailactions_options>
+            <shipment_email>
+                <action_name>View Shipment</action_name>
+                <description>Open shipment in browser</description>
+            </shipment_email>
+            <order_email>
+                <action_name>View Order</action_name>
+                <description>Open order in browser</description>
+            </order_email>
+            <creditmemo_email>
+                <action_name>View Credit Memo</action_name>
+                <description>Open credit memo in browser</description>
+            </creditmemo_email>
+        </gmailactions_options>
+    </default>
 </config>

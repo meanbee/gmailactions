@@ -1,0 +1,16 @@
+<?php $_creditmemo = $this->getCreditmemo(); ?>
+<?php $_order = $this->getOrder(); ?>
+<?php if ($_order->getCustomerIsGuest() == 0): ?>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "EmailMessage",
+  "description": "<?php echo Mage::getStoreConfig("gmailactions_options/creditmemo_email/description"); ?>",
+  "action": {
+    "@type": "ViewAction",
+    "url": "<?php echo $this->getViewCreditmemoUrl($_order); ?>",
+    "name": "<?php echo Mage::getStoreConfig("gmailactions_options/creditmemo_email/action_name"); ?>"
+  }
+}
+</script>
+<?php endif; ?>

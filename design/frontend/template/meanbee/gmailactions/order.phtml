@@ -1,0 +1,15 @@
+<?php $_order = $this->getOrder(); ?>
+<?php if($_order->getCustomerIsGuest() == 0): ?>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "EmailMessage",
+  "description": "<?php echo Mage::getStoreConfig("gmailactions_options/order_email/description"); ?>",
+  "action": {
+    "@type": "ViewAction",
+    "url": "<?php echo $this->getViewOrderUrl($_order); ?>",
+    "name": "<?php echo Mage::getStoreConfig("gmailactions_options/order_email/action_name"); ?>"
+  }
+}
+</script>
+<?php endif; ?>

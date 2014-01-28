@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<config>
+    <tabs> <!-- Tabs are the sections/groups in left hand navigation -->
+        <gmailactions translate="label" module="gmailactions">
+            <label>Gmail Actions</label>
+            <sort_order>99999</sort_order>
+        </gmailactions> <!-- Custom identifier... -->
+    </tabs>
+    <sections>
+        <gmailactions_options translate="label" module="gmailactions">
+            <label>Gmail Actions Configuration</label>
+            <tab>gmailactions</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups> <!-- Each group is a pop-open widget -->
+                <order_email>
+                    <label>Order Email Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                </order_email>
+                <creditmemo_email>
+                    <label>Credit Memo Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                </creditmemo_email>
+                <shipment_email>
+                    <label>Shipment Email Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                </shipment_email>
+            </groups>
+        </gmailactions_options>
+    </sections>
+</config>

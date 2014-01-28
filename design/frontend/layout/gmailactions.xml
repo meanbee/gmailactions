@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<layout>
+    <sales_email_order_items>
+        <block type="meanbee_gmailactions/gmailactions" name="additional.product.info" template="gmailactions/microdata.phtml" />
+    </sales_email_order_items>
+</layout>

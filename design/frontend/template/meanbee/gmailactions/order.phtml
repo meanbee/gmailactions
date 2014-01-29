@@ -1,5 +1,5 @@
 <?php $_order = $this->getOrder(); ?>
-<?php if($_order->getCustomerIsGuest() == 0): ?>
+<?php if(!$_order->getCustomerIsGuest()): ?>
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",

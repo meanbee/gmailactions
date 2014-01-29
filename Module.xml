@@ -3,7 +3,7 @@
     <modules>
         <Meanbee_Gmailactions>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
         </Meanbee_Gmailactions>
     </modules>
 </config>

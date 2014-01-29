@@ -25,7 +25,7 @@ You can install via [Modman](https://github.com/colinmollenhour/modman):
 
 	cd /to/magento/root/
 	modman init
-	modman clone [insert-github-url]
+	modman clone https://github.com/meanbee/gmailactions.git
 
 Or by copying the files across manually (using the modman file as a reference)
 

@@ -7,7 +7,7 @@ Increase user-engagement in your Magento stores transactional emails. Adding sch
 ## Requirements:
 
 - Emails must be [authenticated via DKIM or SPF](https://support.google.com/mail/answer/180707?hl=en)
-	- If you are unable to modify your DNS records to support this, one way of acheiving is through the use of a SMTP module
+	- If you are unable to modify your DNS records to support this, one way of achieving is through the use of a SMTP module
 - Your domain of the DKIM or SPF signatures must match the domain of your From: email address exactly. eg for From: foo@bar.com the DKIM must be for the bar.com domain and not a subdomain such as email.bar.com.
 - Emails must come from a static email address, eg foo@bar.com
 - Emails must follow [Google's general email guidelines](https://support.google.com/mail/answer/81126?hl=en)
@@ -33,7 +33,7 @@ Once installed, clear your cache and sessions.
 
 ## Configuration
 
-We have added a few configurable options, which allows you to customise the `Action Text` which appears on the button. Plus `Description` which describes the contents of the email. These options are located at `System > Configuration > Gmail Actions > Gmail Actions Configuration`. There is a Action Name and Description for each type of transactional email with the exception of Invoices.
+We have added a few configurable options, which allows you to customise the `Action Text` which appears on the button. Plus `Description` which describes the contents of the email. These options are located at `System > Configuration > Gmail Actions > Gmail Actions Configurationn`. There is an `Action Name` and `Description` for each type of transactional email with the exception of Invoices.
 
 ## Testing
 

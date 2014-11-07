@@ -21,7 +21,7 @@
         <layout>
             <updates>
                 <meanbee_gmailactions>
-                    <file>meanbee/gmailactions.xml</file>
+                    <file>meanbee/gmailactions/gmailactions.xml</file>
                 </meanbee_gmailactions>
             </updates>
         </layout>

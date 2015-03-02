@@ -1,15 +1,10 @@
-<?php $_order = $this->getOrder(); ?>
-<?php if(!$_order->getCustomerIsGuest()): ?>
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "EmailMessage",
-  "description": "<?php echo Mage::getStoreConfig("meanbee_gmailactions_options/order_email/description"); ?>",
-  "action": {
-    "@type": "ViewAction",
-    "url": "<?php echo $this->getViewOrderUrl($_order); ?>",
-    "name": "<?php echo Mage::getStoreConfig("meanbee_gmailactions_options/order_email/action_name"); ?>"
-  }
+<?php
+/** @var Mage_Core_Model_Sales_Order $_order */
+$_order = $this->getOrder();
+if (!Mage::getStoreConfigFlag('meanbee_gmailactions_options/order_email/enabled', $_order->getStore())) {
+    return;
 }
+?>
+<script type="application/ld+json">
+    <?php echo json_encode($this->generateOrderArray($_order)); ?>
 </script>
-<?php endif; ?>

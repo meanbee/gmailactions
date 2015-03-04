@@ -1,0 +1,13 @@
+{
+    "name": "meanbee/gmailactions",
+    "type": "magento-module",
+    "description": "Adds schema markup to order, shipment and credit memo email. Which is used by Gmail to give quick options to customers",
+    "keywords": ["google", "gmail", "meanbee"],
+    "license": "Commercial",
+    "authors":[
+        {
+            "name":"Meanbee",
+            "email":"hello@meanbee.com"
+        }
+    ]
+}

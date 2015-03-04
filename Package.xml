@@ -5,13 +5,13 @@
    <version_ids>
       <version_ids>2</version_ids>
    </version_ids>
-   <summary>Adds schema markup to order, shipment and credit memo email. Which is used by Gmail to give  quick options to customers.</summary>
+   <summary>Adds schema markup to order, shipment and credit memo email. Which is used by Gmail to give quick options to customers.</summary>
    <description>This module simply adds some additional schema markup to transactional emails, which is then used by Gmail to display quick action buttons to the gmail interface.
 
 This is achieved by adjusting the block &quot;additional.product.info&quot;.
 
 System configuration options have been added so the end-user can customise the text that is displayed if they wish. Defaults are provided (in English).</description>
-   <license>Commerical</license>
+   <license>Commercial</license>
    <license_uri>http://www.meanbee.com</license_uri>
    <version>1.0.0</version>
    <stability>stable</stability>

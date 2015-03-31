@@ -70,7 +70,6 @@ System configuration options have been added so the end-user can customise the t
       <path>
          <path/>
          <path>Meanbee/Gmailactions</path>
-         <path>frontend/base/default/template/meanbee</path>
          <path>frontend/base/default/layout/meanbee</path>
          <path>modules/Meanbee_Gmailactions.xml</path>
       </path>

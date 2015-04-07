@@ -3,6 +3,7 @@
 Increase user-engagement in your Magento stores transactional emails. Adding schema supported by Gmail adds quick go-to buttons to your customers inboxes. For more info see: [Gmail Actions](https://developers.google.com/gmail/actions/)
 
 ![Go-to Actions Module Example](http://cl.ly/image/3d170G1c3E1x/Screenshot%202014-01-29%2015.58.14.png)
+![Inbox Highlights (Desktop) Example](http://i.imgur.com/LBh3MKn.png)
 
 ## Requirements:
 

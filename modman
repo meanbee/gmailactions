@@ -1,5 +1,4 @@
 code app/code/community/Meanbee/Gmailactions
-design/frontend/template/meanbee/gmailactions app/design/frontend/base/default/template/meanbee/gmailactions
 design/frontend/layout/meanbee/gmailactions   app/design/frontend/base/default/layout/meanbee/gmailactions
 #Misc
 Module.xml app/etc/modules/Meanbee_Gmailactions.xml

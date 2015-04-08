@@ -11,8 +11,8 @@
 This is achieved by adjusting the block &quot;additional.product.info&quot;.
 
 System configuration options have been added so the end-user can customise the text that is displayed if they wish. Defaults are provided (in English).</description>
-   <license>Commercial</license>
-   <license_uri>http://www.meanbee.com</license_uri>
+   <license>MIT</license>
+   <license_uri>http://opensource.org/licenses/MIT</license_uri>
    <version>1.0.0</version>
    <stability>stable</stability>
    <notes>Initial release.</notes>
